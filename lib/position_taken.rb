@@ -8,6 +8,9 @@ def input_to_index(user_input)
   (user_input.to_i) - 1
 end
 
+if board[index] == " "
+  return false
+
 #if position_taken?(board, index) == " "
 #  return false
 #if board[index] == " "
